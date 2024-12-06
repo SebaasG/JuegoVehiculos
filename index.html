@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+<div id="slider">
+  <a href="#" class="control_next">></a>
+  <a href="#" class="control_prev"></a>
+  <ul>
+    <li class="slide" > <img class="imgCarr" src="https://1000marcas.net/wp-content/uploads/2019/12/Audi-logo.png" alt=""></li>
+    <li class="slide" ><img  class="imgCarr" src="https://cdn.worldvectorlogo.com/logos/toyota-1.svg" alt=""></li>
+    <li class="slide"><img  class="imgCarr" src="https://m.media-amazon.com/images/I/51aB7yqrJsL.jpg" alt=""></li>
+  </ul>  
+</div>
+<select id="brandSelect" name="brand">
+    <option value="">Selecciona una marca</option>
+    <option value=1>Toyota</option>
+    <option value=2>Ford</option>
+    <option value=3>Audi</option>
+</select>
+<div class="btnSelector">
+    <button onclick="checkResult()">check</button>
+</div>
+
+
+</div>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
